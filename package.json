@@ -1,0 +1,57 @@
+{
+    "name": "n8n-nodes-checkilo",
+    "version": "0.2.0",
+    "description": "n8n community node for sending Checkilo event and workflow pings.",
+    "license": "MIT",
+    "homepage": "https://checkilo.com",
+    "keywords": [
+        "n8n-community-node-package",
+        "n8n",
+        "checkilo",
+        "monitoring",
+        "workflow",
+        "heartbeat"
+    ],
+    "author": {
+        "name": "Coke3a",
+        "email": "kotori373510@gmail.com"
+    },
+    "scripts": {
+        "build": "n8n-node build",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
+        "lint:fix": "n8n-node lint --fix",
+        "release": "n8n-node release",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "prepublishOnly": "n8n-node prerelease"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Coke3a/checkilo-n8n-node.git"
+    },
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "strict": true,
+        "credentials": [
+            "dist/credentials/CheckiloApi.credentials.js"
+        ],
+        "nodes": [
+            "dist/nodes/Checkilo/Checkilo.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@n8n/node-cli": "^0.30.1",
+        "eslint": "9.32.0",
+        "prettier": "3.6.2",
+        "release-it": "^20.2.0",
+        "typescript": "5.9.2",
+        "vitest": "^4.1.8"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "^2.16.0"
+    }
+}

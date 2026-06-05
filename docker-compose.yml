@@ -1,0 +1,17 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_CUSTOM_EXTENSIONS=/home/node/custom-nodes
+      - N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
+    volumes:
+      - ./:/home/node/custom-nodes/n8n-nodes-checkilo
+      - node_modules_shadow:/home/node/custom-nodes/n8n-nodes-checkilo/node_modules
+      - n8n_data:/home/node/.n8n
+
+volumes:
+  n8n_data:
+  node_modules_shadow:
