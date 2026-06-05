@@ -1,5 +1,5 @@
 {
-    "name": "n8n-nodes-checkilo",
+    "name": "@checkilo/n8n-nodes-checkilo",
     "version": "0.2.0",
     "description": "n8n community node for sending Checkilo event and workflow pings.",
     "license": "MIT",

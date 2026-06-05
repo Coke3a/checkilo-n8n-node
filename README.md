@@ -1,6 +1,6 @@
-# n8n-nodes-checkilo
+# @checkilo/n8n-nodes-checkilo
 
-`n8n-nodes-checkilo` is an n8n community node package for sending Checkilo pings from inside n8n workflows.
+`@checkilo/n8n-nodes-checkilo` is an n8n community node package for sending Checkilo pings from inside n8n workflows.
 
 It provides one node, `Checkilo`, with two operations:
 
@@ -30,7 +30,7 @@ Follow the official n8n community node installation guide:
 For self-hosted n8n, install this package as:
 
 ```bash
-npm install n8n-nodes-checkilo
+npm install @checkilo/n8n-nodes-checkilo
 ```
 
 This package expects a Checkilo backend that exposes:
