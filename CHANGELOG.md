@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1
+
+### Fixed
+
+- `peerDependencies.n8n-workflow` is now `*` (was `^2.16.0`) to satisfy the n8n verified community-node requirement (`@n8n/community-nodes/valid-peer-dependencies`). The n8n host controls the `n8n-workflow` version at runtime, so a community node must accept any version. No functional change.
+
 ## 0.2.0
 
 ### Added
