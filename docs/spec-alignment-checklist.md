@@ -1,7 +1,7 @@
 # n8n Node — Spec Alignment Checklist
 
 > Bring `n8n-nodes-checkilo` in line with the cross-platform connector spec:
-> [`../../docs/integrations-ux-spec.md`](../../docs/integrations-ux-spec.md).
+> [`../../docs/tasks/integrations-ux-spec.md`](../../docs/tasks/integrations-ux-spec.md).
 > Files to touch: `nodes/Checkilo/Checkilo.node.ts`, `nodes/Checkilo/api.ts`, `package.json`, `CHANGELOG.md`, new tests.
 > Current version: `0.1.0`. No test files exist yet. Drafted 2026-06-02.
 
