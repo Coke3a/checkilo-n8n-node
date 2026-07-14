@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.2
+
+### Fixed
+
+- Package metadata now points to the correct domain. `homepage` and the Checkilo API credential's `documentationUrl` use `checkilo.app` (the live site) instead of `checkilo.com`, which is not a Checkilo-owned domain. No functional change — the ping host was already `ping.checkilo.app`.
+
 ## 0.2.1
 
 ### Fixed
