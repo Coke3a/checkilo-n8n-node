@@ -11,7 +11,7 @@ export class CheckiloApi implements ICredentialType {
 
 	displayName = 'Checkilo API';
 
-	documentationUrl = 'https://checkilo.com';
+	documentationUrl = 'https://checkilo.app/integrations/n8n/';
 
 	icon: Icon = { light: 'file:../nodes/Checkilo/checkilo.svg', dark: 'file:../nodes/Checkilo/checkilo.dark.svg' };
 
