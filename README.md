@@ -2,6 +2,8 @@
 
 `@checkilo/n8n-nodes-checkilo` is an n8n community node package for sending Checkilo pings from inside n8n workflows.
 
+> [Checkilo](https://checkilo.app) is heartbeat and checkpoint monitoring for business-critical automations — it alerts you when an n8n workflow stops running or silently stops working. Learn more and start free (5 automations, no card) at **[checkilo.app](https://checkilo.app)**.
+
 It provides one node, `Checkilo`, with two operations:
 
 - `Event Ping` — a single heartbeat marked Success or Failure

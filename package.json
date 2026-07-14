@@ -3,7 +3,7 @@
     "version": "0.2.1",
     "description": "n8n community node for sending Checkilo event and workflow pings.",
     "license": "MIT",
-    "homepage": "https://checkilo.com",
+    "homepage": "https://checkilo.app",
     "keywords": [
         "n8n-community-node-package",
         "n8n",
